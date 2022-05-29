@@ -116,7 +116,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>Hotline</h4>
-                            <p>1-677-124-44227 • 1-688-356-66889</p>
+                            <p><a href="#">1-677-124-44227 • 1-688-356-66889</a></p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>Email</h4>
-                            <p>Support@gmail.com</p>
+                            <p><a href="#">Support@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -150,11 +150,11 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
                         <h3>Get in touch</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Website">
-                            <textarea placeholder="Message"></textarea>
+                        <form action="http://localhost/connect.php" method="post">
+                            <input type="text" placeholder="Name" name="name">
+                            <input type="email" placeholder="Email" name="email">
+                            <input type="tel" placeholder="Contact Number" name="contact">
+                            <textarea placeholder="Inquiry Details" name="message"></textarea>
                             <button type="submit" class="site-btn">Send Message</button>
                         </form>
                     </div>
