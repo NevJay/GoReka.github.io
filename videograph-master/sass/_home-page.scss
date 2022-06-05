@@ -123,7 +123,7 @@
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #100028;
+  background: #000000;
 }
 
 .work__gallery {
@@ -223,7 +223,7 @@
   Counter
 -----------------------*/
 .counter {
-  background: #100028;
+  background: #000000;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -234,7 +234,7 @@
 }
 
 .counter__item {
-  background: #1a083d;
+  background: #000000;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   height: 255px;
@@ -407,7 +407,7 @@
   Latest
 -----------------------*/
 .latest {
-  background: #100028;
+  background: #000000;
   padding-bottom: 80px;
 }
 
@@ -466,7 +466,7 @@
 
   &.sp__callto {
     padding-top: 0;
-    background: #100028;
+    background: #000000;
   }
 }
 
