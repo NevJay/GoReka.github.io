@@ -544,7 +544,7 @@ ol {
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #100028;
+  background: #000205;
 }
 
 .work__gallery {
@@ -637,7 +637,7 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #100028;
+  background: #000205;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -805,7 +805,7 @@ ol {
   Latest
 -----------------------*/
 .latest {
-  background: #100028;
+  background: #000205;
   padding-bottom: 80px;
 }
 
@@ -847,7 +847,7 @@ ol {
 }
 .callto.sp__callto {
   padding-top: 0;
-  background: #100028;
+  background: #000205;
 }
 
 .callto__text h2 {
@@ -880,7 +880,7 @@ ol {
   Footer
 -----------------------*/
 .footer {
-  background: #0a0119;
+  background: #000205;
 }
 
 .footer__top {
@@ -1050,7 +1050,7 @@ ol {
   About
 -----------------------*/
 .about {
-  background: #100028;
+  background: #000205;
   padding-bottom: 150px;
 }
 
@@ -1151,7 +1151,7 @@ ol {
   Services
 -----------------------*/
 .services {
-  background: #100028;
+  background: #000205;
   padding-bottom: 60px;
   padding-top: 110px;
 }
@@ -1203,7 +1203,7 @@ ol {
   Services Page
 -----------------------*/
 .services-page {
-  background: #100028;
+  background: #000205;
   padding-bottom: 50px;
 }
 
@@ -1211,7 +1211,7 @@ ol {
   Logo
 -----------------------*/
 .logo {
-  background: #100028;
+  background: #000205;
   padding: 100px 20px;
 }
 
@@ -1224,7 +1224,7 @@ ol {
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #100028;
+  background: #000205;
 }
 
 .portfolio__filter {
@@ -1369,7 +1369,7 @@ ol {
     Blog
 -----------------------*/
 .blog {
-  background: #100028;
+  background: #000205;
 }
 
 .blog__item {
@@ -1484,7 +1484,7 @@ ol {
   Blog Details
 -----------------------*/
 .blog-details {
-  background: #100028;
+  background: #000205;
 }
 
 .blog__details__text {
@@ -1701,7 +1701,7 @@ ol {
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #100028;
+  background: #000205;
   padding-bottom: 70px;
 }
 
@@ -1742,7 +1742,7 @@ ol {
   Contact
 -----------------------*/
 .contact {
-  background: #100028;
+  background: #000205;
   padding-top: 0;
   overflow: hidden;
 }
