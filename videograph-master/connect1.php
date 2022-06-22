@@ -2,7 +2,7 @@
     $email = $_POST["email"];
     
     //database connection
-    $conn = new mysqli('localhost', 'root','','xivietcontact');
+    $conn = new mysqli('localhost', 'root','','sahasagl_contact');
     if($conn->connect_error){
         die('Connection Failed : ' . $conn->connect_error);
     }else{
