@@ -9,11 +9,11 @@
     settype($message, "string");
 
     //database connection
-    $conn = new mysqli('localhost', 'root','','xivietcontact');
+    $conn = new mysqli('localhost', 'root','','sahasagl_contact');
     if($conn->connect_error){
         die('Connection Failed : ' . $conn->connect_error);
     }else{
-        $stmt = $conn->prepare("insert into contacts(name, email, contact, message) values(?, ?, ?, ?)");
+        $stmt = $conn->prepare("insert into persons(name, email, contact, message) values(?, ?, ?, ?)");
         mysqli_stmt_bind_param($stmt, 'ssss', $name, $email, $contact, $message);
         echo "Our team will contact you on your inquiry....";
         $stmt->execute();
