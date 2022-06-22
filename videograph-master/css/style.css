@@ -187,6 +187,11 @@ ol {
   background: #555;
 }
 
+@media only screen and (max-width: 600px) {
+  body{
+      overflow: hidden;    
+  }
+}
 
 /* buttons */
 .primary-btn {
