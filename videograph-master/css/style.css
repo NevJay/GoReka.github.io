@@ -335,12 +335,12 @@ ol {
   Header
 -----------------------*/
 .header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
-  background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
   z-index: 9;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
