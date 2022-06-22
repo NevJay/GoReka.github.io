@@ -188,9 +188,17 @@ ol {
 }
 
 @media only screen and (max-width: 600px) {
-  body{
-      overflow: hidden;    
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+    display: none;
   }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 }
 
 /* buttons */
@@ -1965,7 +1973,7 @@ ol {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
+    background: transparent;
   }
 
   .header .container {
@@ -2088,7 +2096,7 @@ ol {
     position: absolute;
     right: 0px;
     top: 26px;
-    background: #2a00e7;
+    background: transparent;
   }
 
   .header .container {
