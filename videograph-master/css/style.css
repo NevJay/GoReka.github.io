@@ -80,6 +80,11 @@ p,a {
   margin: 0 0 15px 0;
 }
 
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 img {
   max-width: 100%;
 }
